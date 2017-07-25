@@ -28,7 +28,7 @@
 - (IBAction)showNotification:(id)sender {
     
     __weak typeof (self) weakSelft = self;
-    [[QKBannersView sharedInstance] showMessage:@"标题" showTitle:@"Logo" animaDelay:0.3 icon:[UIImage imageNamed:@"icon"] clickEvent:^(id sender) {
+    [[QKBannersView sharedInstance] showMessage:@"一段很长的文字内容测试，一段很长的文字内容测试，一段很长的文字内容测试" showTitle:@"Logo" animaDelay:0.3 icon:[UIImage imageNamed:@"icon"] clickEvent:^(id sender) {
         [weakSelft btnTitleClick:sender];
     } configuration:^{
         [QKBannersView sharedInstance].showTime = 5;

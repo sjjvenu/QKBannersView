@@ -14,6 +14,9 @@
 		2F13621F1F26E4E500D914CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F13621E1F26E4E500D914CD /* Assets.xcassets */; };
 		2F1362221F26E4E500D914CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F1362201F26E4E500D914CD /* LaunchScreen.storyboard */; };
 		2F13622C1F26E51100D914CD /* QKBannersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F13622B1F26E51100D914CD /* QKBannersView.m */; };
+		2F1362301F26EAB700D914CD /* icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F13622D1F26EAB700D914CD /* icon-120.png */; };
+		2F1362311F26EAB700D914CD /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F13622E1F26EAB700D914CD /* icon.png */; };
+		2F1362321F26EAB700D914CD /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F13622F1F26EAB700D914CD /* icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		2F1362231F26E4E500D914CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F13622A1F26E51100D914CD /* QKBannersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QKBannersView.h; sourceTree = "<group>"; };
 		2F13622B1F26E51100D914CD /* QKBannersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QKBannersView.m; sourceTree = "<group>"; };
+		2F13622D1F26EAB700D914CD /* icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-120.png"; sourceTree = "<group>"; };
+		2F13622E1F26EAB700D914CD /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		2F13622F1F26EAB700D914CD /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,9 @@
 				2F13621E1F26E4E500D914CD /* Assets.xcassets */,
 				2F1362201F26E4E500D914CD /* LaunchScreen.storyboard */,
 				2F1362231F26E4E500D914CD /* Info.plist */,
+				2F13622D1F26EAB700D914CD /* icon-120.png */,
+				2F13622E1F26EAB700D914CD /* icon.png */,
+				2F13622F1F26EAB700D914CD /* icon@2x.png */,
 				2F1362121F26E4E500D914CD /* Supporting Files */,
 			);
 			path = BannersView;
@@ -150,9 +159,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1362301F26EAB700D914CD /* icon-120.png in Resources */,
+				2F1362311F26EAB700D914CD /* icon.png in Resources */,
 				2F1362221F26E4E500D914CD /* LaunchScreen.storyboard in Resources */,
 				2F13621F1F26E4E500D914CD /* Assets.xcassets in Resources */,
 				2F13621D1F26E4E500D914CD /* Main.storyboard in Resources */,
+				2F1362321F26EAB700D914CD /* icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +335,7 @@
 				2F1362281F26E4E500D914CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
