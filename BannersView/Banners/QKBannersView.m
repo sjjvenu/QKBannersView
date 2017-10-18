@@ -124,6 +124,8 @@
     [UIView animateWithDuration:m_animaDelay animations:^{
         CGRect windowF = m_window.frame;
         windowF.origin.y = 0;
+        if ([UIScreen mainScreen].bounds.size.height == 812)
+            windowF.origin.y = 30;
         m_window.frame = windowF;
     }];
 }
